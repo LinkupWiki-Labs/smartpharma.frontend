@@ -10,7 +10,7 @@ export default function Landing(){
 			</Flex>
 			<Image opacity='0.8' zIndex='-100' position='absolute' top='0' left='0' src='./1.jpg' alt='photo' h='100vh' w='100vw' objectFit='cover'/>
 			<InfoSection />
-			<Flex bg='#F092DD' w='350px' opacity='0.8' borderRadius='5' m='10vh' mt='-5vh' p='2'>
+			<Flex bg='#F092DD' w='350px' opacity='0.8' borderRadius='5' m='-10vh 5vh' p='2'>
 				{links.map((link)=>{return(<Text key={link.id} textDecoration='1px solid #000 underline' cursor='pointer' color='#000' p='3' fontWeight='bold' borderRight='1px solid #fff'>{link}</Text>)})}
 			</Flex>
 		</Flex>
@@ -19,7 +19,7 @@ export default function Landing(){
 
 const InfoSection=()=>{
 	return(
-		<Flex fontWeight='bold' direction='column' p='4'  gap='4' border='0px solid #000' bg='#392F5a' color='#fff' borderRadius='10' m='10vh' mt='15vh' w='500px' boxShadow='dark-lg'>
+		<Flex fontWeight='bold' direction='column' p='4'  gap='4' border='0px solid #000' bg='#392F5a' color='#fff' borderRadius='10' m='15vh 30px' w='350px' boxShadow='dark-lg'>
 			<Text color='#F092DD' fontSize='48px' fontWeight='bold'>Smart Pharma</Text>
 			<Text>The smart way to connect with the pharmaceutical network.</Text>
 			<Text>Smart Pharama is a digital platform that provides a professional tools to manage, Track and keep record of your pharmaceutical stock and infomation.</Text>
