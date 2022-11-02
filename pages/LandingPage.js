@@ -11,7 +11,7 @@ export default function Landing(){
 			<Image opacity='0.8' zIndex='-100' position='absolute' top='0' left='0' src='./1.jpg' alt='photo' h='100vh' w='100vw' objectFit='cover'/>
 			<InfoSection />
 			<Flex bg='#F092DD' w='350px' opacity='0.8' borderRadius='5' m='10vh' mt='-5vh' p='2'>
-				{links.map((link)=>{return(<Text textDecoration='1px solid #000 underline' cursor='pointer' color='#000' p='3' fontWeight='bold' borderRight='1px solid #fff'>{link}</Text>)})}
+				{links.map((link)=>{return(<Text key={link.id} textDecoration='1px solid #000 underline' cursor='pointer' color='#000' p='3' fontWeight='bold' borderRight='1px solid #fff'>{link}</Text>)})}
 			</Flex>
 		</Flex>
 	)
