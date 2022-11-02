@@ -15,7 +15,7 @@ import {
     Select,
     InputGroup,Heading,
     Stack,
-    useToast,Select
+    useToast,
   } from '@chakra-ui/react';
 import { useEffect,useState } from 'react';
 

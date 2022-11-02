@@ -38,7 +38,7 @@ const MenuSideBar=({setshowmenubar,router})=>{
 			<Flex direction='column' gap='4' p='2' w='60vw' h='90vh' bg='#F092DD' position='absolute' top='60px' right='0px' zIndex='2' >
 				{navItems.map((content)=>{
 					return (
-						<Flex color='' align='center' p='2' bg='#fff' borderBottom='1px solid #000' borderRadius='5px' fontWeight='bold' onClick={(()=>{setshowmenubar(false);router.push(`/dashboard/${content.link}`)})}>
+						<Flex key={content.id} color='' align='center' p='2' bg='#fff' borderBottom='1px solid #000' borderRadius='5px' fontWeight='bold' onClick={(()=>{setshowmenubar(false);router.push(`/dashboard/${content.link}`)})}>
 							{content.icon}
 							<Text fontSize='20px'  color='#000' p='1.5' mb='0' cursor='pointer' >{content.name}</Text>
 						</Flex>
