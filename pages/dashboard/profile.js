@@ -26,7 +26,7 @@ function Profile(){
 			</Flex>
 			<Button m='2' color='#fff' bg='#F092DD'>Edit Profile</Button>
 			<Flex p='2' direction='column' gap='2'>
-				<Flex p='2' justify='space-between' borderBottom='1px solid #000' align='center' bg='#eee' p='1'>
+				<Flex p='2' justify='space-between' borderBottom='1px solid #000' align='center' bg='#eee'>
 					<Text fontSize='20px' fontWeight='bold'>Address</Text>
 					{active && currentValue === 'address' ? 
 						<KeyboardArrowUpIcon onClick={(()=>{setcurrentValue('');setActive(!active)})}/>
