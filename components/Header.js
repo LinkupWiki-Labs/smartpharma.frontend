@@ -14,7 +14,7 @@ export default function Header(){
 	const router = useRouter();
 	return(
 		<Flex cursor='pointer' h='' p='2' bg='#fff' opacity='1' w='100%' justify='space-between'>
-			<Text onClick={(()=>{router.push('/')})} textShadow='#000 0px 1px 1px' color='#F092DD' fontSize='32px' fontWeight='bold'>Smart Pharma</Text>
+			<Text onClick={(()=>{router.push('/')})} textShadow='#000 0px 1px 1px' color='#F092DD' fontSize='28px' fontWeight='bold'>Smart Pharma</Text>
 			<Flex align='center' gap='2'>
 				<Text cursor='pointer' fontWeight='bold'>Sign In</Text>
 				<Button w='' onClick={(()=>{router.push('/')})} color='#fff' borderRadius='5px' bg='#F092DD'>Log Out</Button>
