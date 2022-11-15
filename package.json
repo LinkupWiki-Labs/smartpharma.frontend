@@ -22,7 +22,6 @@
     "react": "18.2.0",
     "react-dom": "18.2.0",
     "react-map-gl": "^7.0.19",
-    "react-mapbox-gl": "^5.1.1",
     "worker-loader": "^3.0.8"
   },
   "devDependencies": {
