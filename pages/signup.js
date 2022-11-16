@@ -31,7 +31,7 @@ export default function ClientSignUp(){
 			<Header/>
 			<Flex className={styles.authSection} gap='2' p='8'>
 				<Text w='40vw'  fontSize='2.5rem' color='#fff' fontWeight='bold'>Welcome to LinkupPharma</Text>
-				<Text w='40vw' color='#fff' fontWeight='' fontSize='1.3rem'>Search for products, and purchase from thousands of pharmacies - all in one platform.Access all easily.</Text>
+				<Text w='40vw' color='#fff' fontWeight='' fontSize='1.3rem'>Welcome to the pharmaceutical sharing and exchange network.Reduce wastage and ensure pharmaceuticals are available are reduced costs.</Text>
 			</Flex>
 			<Flex className={styles.authForm} gap='2' direction='column'>
 				<Text w='100%' textAlign='center' fontSize='2rem'><span style={{borderBottom:"4px solid #f092dd",borderRadius:"3px"}}>Sign</span> Up</Text>

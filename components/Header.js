@@ -8,6 +8,7 @@ import SettingsIcon from '@mui/icons-material/Settings';
 import HubIcon from '@mui/icons-material/Hub';
 import {useRouter} from 'next/router'
 import ManageAccountsIcon from '@mui/icons-material/ManageAccounts';
+import NotificationsIcon from '@mui/icons-material/Notifications';
 
 export default function Header(){
 	const [showmenubar,setshowmenubar]=useState(false);
@@ -64,9 +65,14 @@ const navItems=[
 		link:'profile',
 		icon:<ManageAccountsIcon/>,
 	},
-	// {
-	// 	name:'Settings',
-	// 	link:'settings',
-	// 	icon:<SettingsIcon/>,
-	// },
+	{
+		name:'Settings',
+		link:'settings',
+		icon:<SettingsIcon/>,
+	},
+	{
+		name:'Notifications',
+		link:'notifications',
+		icon:<NotificationsIcon/>,
+	},
 ]
